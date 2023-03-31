@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat Brush', cursive;
+}
+header{
+    width: 100%;
+    background-color: #09447c;
+   
+}
+.container{
+    width: 87.75%;
+    margin: 0 auto;
+}
+.menu{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-sanduiche{
+    width: 30px;
+    height: 30px;
+    background-color: #09447c;
+    cursor: pointer;
+}
+
+.barra-sanduiche {
+    border: solid 2px #fff;
+    margin-top: 4px ;
+    width: 20px;
+    
+}
+.logo img{
+    object-fit: cover;
+    height: 65px;
+    width: auto;
+}
+
+.rede-social i {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.parte1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../imagens/imagen-do-piloto.jpg');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.numero-Senna{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 6%;
+    background-color: rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    padding: 5% ;
+   
+}
+
+.numero-Senna h3{
+    color: #09447c;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-image:url(https://www.colorhexa.com/ffd70d.png);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-right: 2%;
+   
+}
+
+.numero-Senna ul {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: #01a850;;  
+}
+
+.numero-Senna li {
+    margin-top: 20px;
+}
+
+.numero-Senna strong {
+    color: #09447c;
+}
+
+.numero-Senna i {
+    border: #000 solid 2px;
+    padding: 11px;
+    border-radius: 50%;
+    position: relative;
+    color: #f4c213;
+    margin-bottom: 0;
+}
+
+.fundobanner{ 
+    width: 100%; 
+}
+
+.fundocinza{
+    padding: 5%;
+}
+
+ .banner {
+    background-image: url('../imagens/banner1.jpg')   ;
+    width: 100%;
+    height: 40vw;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-titulo h3{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    color: #09447c;
+    font-size: 40px;
+    flex-wrap:nowrap;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -2px; 
+}
+.fundobanner {
+    background-color:#f1f1f1;
+}
+
+
+
+.banner-titulo{
+    margin-left: 30px;
+
+}
+
+.fundo-amarelo2{
+    background-image:url(https://www.colorhexa.com/ffd70d.png);
+    background-size: 85% 40%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.banner-titulo h4{
+    font-size: 15px;
+    color: #09447c;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: 100;  
+}
+
+.banner-titulo button{
+    padding: 15px;
+    background-color: #09447c;
+    color: #fff;
+    margin-left: 30%;
+    margin-top: 5%;
+    cursor: pointer;
+    border: none;  
+}
+ .banner-titulo button:hover {
+    color: #09447c;
+    background-color: #fff;
+}
+
+.parte3 {
+    display: flex;
+    margin: 0;
+}
+
+.parte3 .banner1{
+    flex: 1;
+    background-image: url('../imagens/banner2-logo1.jpg');
+}
+
+.parte3 .banner2{
+    flex: 1;
+    background-image: url('../imagens/parte3-banner2.jpg'); 
+}
+.parte3 .banner1 h2{
+    background-image: url('../imagens/fundoverde.jpg');
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    background-position:  center bottom;
+    width: 75.5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 7%;
+    
+}
+.parte3 .banner1 p {
+    width: 75.5%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    margin-top: 7%;
+    font-size: 16px;
+}
+
+.parte3 .banner1 button{
+    padding: 15px;
+    color: #09447c;
+    background-color: #fff;
+    border: none;
+    margin-left: 12.25%;
+    margin-bottom: 12%;
+    margin-top: 3%;
+    cursor: pointer;
+    
+}
+
+.parte3 .banner1 button:hover{
+    background-color: #09447c;
+    color: #fff;
+}
+
+
+.parte3 .banner2 h2{
+    background-image: url(https://www.colorhexa.com/ffd70d.png);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    background-position:  center bottom;
+    width: 75.5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 7%;
+}
+.parte3 .banner2 p {
+    width: 75.5%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    margin-top: 7%;
+    font-size: 16px;
+}
+
+.parte3 .banner2 button{
+    padding: 15px;
+    color: #09447c;
+    background-color: #fff;
+    border: none;
+    margin-left: 12.25%;
+    margin-bottom: 12%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+.parte3 .banner2 button:hover{
+    background-color: #09447c;
+    color: #fff;
+}
+.citacao p{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 7%;
+    
+}
+
+.citacao q{
+    font-size: 40px;
+    color: #09447c;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.citacao img{
+    height: auto;
+    width: 12%;
+    margin-left: 80%;
+    margin-top: 2%;
+    object-fit: cover;
+    margin-bottom: 7%;
+    
+}
+
+.citacao{
+    background-color: #f7f7f7;
+}
+
+.parte4{
+    background-color: #f7f7f7;
+    display: flex;
+    padding-left: 20%;
+
+}
+.parte4 .titulo h2{
+    flex: 1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #09447c;
+    background-image: url(https://www.colorhexa.com/ffd70d.png);
+    background-size: 40% 20%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.parte4 .imagen-senna img{
+    flex: 1;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    
+    
+   
+}
+.imagen-senna{
+    padding-right: 20%;
+    margin-bottom: 0;
+    
+
+}
+.parte4 .titulo button{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 18px 35px;
+    background-color: #09447c;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 4%;
+    cursor: pointer;
+}
+.parte4 .titulo button:hover{
+    background-color: #01a850;
+}
+
+footer .roda-pe{
+    background-color: #09447c;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    gap: 5px;
+    
+    
+}
+.logo-footer{
+    flex: 1;
+    height: auto;
+}
+
+.menu-footer{
+    flex: 3;
+    height: auto;
+}
+
+.footer-rede-social{
+    flex: 1;
+    height: auto;
+}
+
+.logo-footer img{
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+   margin-left: 25%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.menu-footer ul{
+    display: flex;
+    color: #fff;
+    list-style-type: none;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content:left;
+    margin-left: 0;
+}
+
+.menu-footer li{
+    margin-right: 4%;
+    margin-top: 4%;
+   font-size: 14px;
+   font-weight: 700;
+   cursor: pointer;
+   
+}
+.footer-rede-social{
+    margin-top: 3%;
+}
+
+.criador{
+    color: #5c5c5c;
+    font-size: 14px;
+    margin-top: 10%;
+    
+}
+.footer-cor{
+    color: #5f5f5f;
+}
+
+.barra{
+    display: flex;
+}
+.barra .verde {
+    border: solid 3px #01a850;
+    width: 4px;
+    
+}
+.amarelo {
+    
+    border: solid 3px #f4c213;
+    width: 4px;
+   
+    
+}
+.azul {
+    border: solid 3px #2d0becf8;
+    width: 4px;
+    
+}
+
+@media (max-width:1332px) {
+    
+    .numero-Senna li {
+        font-size: 25px;
+    }
+
+ }
+ @media (max-width:1236px) {
+    .numero-Senna li {
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    .imagem-Senna img{
+        width: 400px;
+        height: auto;
+        object-fit: cover;
+        margin-top: 20%;
+    }
+    .citacao q {
+        font-size: 30px;
+    }
+    .parte4 .titulo h2 {
+        font-size: 22px;
+        background-size: 90% 20%;
+    }
+    .parte4 .titulo button {
+        padding: 12px;
+
+    }
+
+    .menu-footer li {
+        font-size: 11px;
+    }
+
+    .menu-footer .barra {
+        width: 2px;
+    }
+ }
+ @media (max-width:768px ){
+    .numero-Senna h3 {
+        font-size: 28px;
+    }
+    .imagem-Senna img {
+        flex: 1;
+        width: 350px;
+        margin-top: 10%;
+    }
+    .numero-Senna {
+        flex: 1;
+    }
+    .parte4{
+        padding:0 8%;
+    }
+    .imagen-senna{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .parte4 .imagen-senna img{
+        width: 60%;
+        flex: none;
+    }
+
+    .numero-Senna li {
+        font-size: 15px;
+    }
+    .banner-titulo h3 {
+        font-size: 25px;
+        
+    }
+    .banner-titulo h4{
+        font-size: 11px;
+    }
+    .banner-titulo button {
+        padding: 10px;
+        font-size: 12px;
+       
+        margin-left: 23%;
+    }
+    .parte3 {
+        flex-direction: column;
+    }
+    .citacao q {
+        font-size: 25px;
+    }
+    .parte4 .titulo h2 {
+        font-size: 15px;
+
+    }
+    .parte4 .titulo button{
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 10%;
+    }
+    .menu-footer li {
+        font-size: 8px;
+    }
+    .menu-footer .barra {
+        display: none;
+    }
+    .roda-pe .rede-social{
+        display: none;
+    }  
+    .criador{
+        font-size: 12px;
+        padding: 2px;
+    }
+ }
+ @media (max-width:520px){
+    .parte1 li{
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .parte4 h2 {
+        font-size: 12px;
+    }
+    .parte4 .titulo button{
+        font-size: 12px;
+        padding: 7px;
+        margin-top: 5%;
+    }
+ }
+ @media (max-width:435px){
+    .parte1{
+        flex-direction: column;
+    }
+    .parte1 li{
+        font-size: 14px;
+    }
+    .parte3 .banner2 h2{
+        font-size: 30px;
+    }
+    .parte3 .banner1 h2{
+        font-size: 30px;
+    }
+    .banner-titulo h3{
+        font-size: 18px;
+    }
+    .banner-titulo button{
+        padding: 7px;
+        font-size: 11px;
+    }
+    .parte3 .banner1 button,.parte3 .banner2 button{
+        padding: 7px;
+        font-size: 12px;
+    }
+    .citacao q{
+        font-size: 18px;
+    }
+    .titulo{
+        padding-bottom: 10px;
+    }
+    .roda-pe{
+        padding-bottom: 5px;
+    }
+    .rede-social{
+        display: none;
+    }
+    .menu{
+        justify-content: space-around;
+    }
+    .parte4 .titulo h2{
+        font-size: 12px;
+    }
+    .menu-footer li{
+        font-size: 6px;
+    }
+    .parte4 .titulo button{
+        font-size: 10px;
+        padding: 5px;
+    }
+ }
+
